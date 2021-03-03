@@ -7,10 +7,10 @@ export default () => {
     return (
         <div>
             <Navbar/>
-            <header className='bg-yellow-400 py-20 px-32'>
-                <h1 className='text-6xl font-bold leading-snug text-center'>Bigger Better Burger Joint</h1>
+            <header>
+                <h1>Bigger Better Burger Joint</h1>
             </header>
-            <div className='py-24 px-32'>
+            <section>
                 <div className='grid grid-cols-2 gap-x-12'>
                     <div>
                         <div>
@@ -127,7 +127,7 @@ export default () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
             <Footer/>
         </div>
     )

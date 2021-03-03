@@ -6,10 +6,10 @@ const Cart = () => {
     return (
         <div>
             <Navbar/>
-            <header className='bg-yellow-400 py-24 px-32'>
-                <h1 className='font-bold text-6xl text-center'>Cart</h1>
+            <header>
+                <h1>Cart</h1>
             </header>
-            <div className='py-24 px-32'>
+            <section>
                 <div className='border border-gray-300 p-6'>
                     <h2 className='text-2xl font-bold tracking-wider capitalize border-b border-gray-300 pb-2'>You have
                         1 Item In Your Cart</h2>
@@ -73,7 +73,7 @@ const Cart = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
             <Footer/>
         </div>
     )

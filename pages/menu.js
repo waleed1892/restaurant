@@ -6,9 +6,9 @@ const Menu = () => {
     return (
         <div>
             <Navbar/>
-            <header className='bg-yellow-400 py-24 px-32'>
+            <header>
                 <div>
-                    <h1 className='text-6xl font-bold leading-snug text-center'>Our Delicious Menu</h1>
+                    <h1>Our Delicious Menu</h1>
                     <div className='grid grid-cols-5 grid-rows-2 mt-4 gap-y-8'>
                         <div className='text-center'>
                             <Image className='rounded-full' src={'/images/appetizers.png'} width={180} height={180}/>
@@ -53,7 +53,7 @@ const Menu = () => {
                     </div>
                 </div>
             </header>
-            <div className='py-24 px-32 grid grid-rows-3 gap-y-16'>
+            <section className='grid grid-rows-3 gap-y-8'>
                 <div>
                     <div className='flex justify-between items-center'>
                         <div className='text-2xl font-semibold'>Food Near Me</div>
@@ -183,7 +183,7 @@ const Menu = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
             <Footer/>
         </div>
     );

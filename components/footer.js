@@ -3,11 +3,11 @@ import Link from "next/link";
 
 export const Footer = () => {
     return (
-        <footer className='bg-gray-900 py-6 px-32'>
+        <footer className='bg-gray-900'>
             <div className='flex justify-between items-center pb-8 border-b border-gray-600'>
                 <Image src={'/images/logo-white.png'} height={'50'} width={210}/>
             </div>
-            <div className='grid grid-cols-5 py-10 gap-x-16 pb-24'>
+            <div className='grid grid-cols-5 sm:grid-cols-3 sm:gap-6 sm:pb-16 sm:items-start lg:grid-cols-5 py-10 gap-x-16 pb-24'>
                 <ul className='flex flex-col list-none text-gray-100 text-sm leading-relaxed'>
                     <li><Link href=''>About Us</Link></li>
                     <li><Link href=''>Restaurant Owners</Link></li>
@@ -47,7 +47,7 @@ export const Footer = () => {
                     <li>Sat - <span className='text-yellow-500'>10AM to 1AM</span></li>
                     <li>Sun - <span className='text-yellow-500'>11AM to 10PM</span></li>
                 </ul>
-                <div className='text-center text-gray-100 text-sm leading-tight'>
+                <div className='text-center sm:col-span-2 sm:justify-self-end lg:col-span-1 text-gray-100 text-sm leading-tight'>
                     <div>VOCUHER</div>
                     <div className='mt-2'>
                         <Image src={'/images/voucher.png'} width={120} height={120}/>

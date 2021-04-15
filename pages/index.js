@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import {Footer} from "../components/footer";
-import {Navbar} from "../components/navbar";
+import Navbar from "../components/navbar";
 import {Swiper, SwiperSlide} from 'swiper/react';
 import Appetizers from './../public/images/appetizers.png'
 import Burgers from './../public/images/burgers.png';
